@@ -61,5 +61,6 @@ func main() {
 	}
 	err = rows.Err()
 	if err != nil {
+		println("ops select can't be done")
 	}
 }
